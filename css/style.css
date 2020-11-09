@@ -73,17 +73,17 @@ h4 {
 
 
 .gifts__first{
-  background-image: url("../img/Малиновый фон.jpg");
+  background-image: url("../img/raspberry_back.jpg");
   background-repeat: no-repeat;
 }
 
 .gifts__second{
-  background-image: url("../img/Шоколадный фон.jpg");
+  background-image: url("../img/chocloate_back.jpg");
   background-repeat: no-repeat;
 }
 
 .about{
-  background-image: url("../img/Вафля фон.jpg");
+  background-image: url("../img/waffle_back.jpg");
   background-repeat: no-repeat;
 }
 
@@ -93,6 +93,6 @@ h4 {
 }
 
 .new-news{
-  background-image: url("../img/Клубничный фон.jpg");
+  background-image: url("../img/strawberry_back.jpg");
   background-repeat: no-repeat;
 }
