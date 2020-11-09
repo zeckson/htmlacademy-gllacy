@@ -1,12 +1,210 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="css/style.css ">
+</head>
+<body>
+<header>
+  <a class="header-logo" href=""><img src="https://fakeimg.pl/154x64/" alt="logo"></a>
+  <ul class="header-nav">
+    <li><a href="">Каталог</a>
+      <ul class="catalog-submenu">
+        <li>Новинки</li>
+        <li><a href="">Сливочное</a></li>
+        <li><a href="">Щербеты</a></li>
+        <li><a href="">Фруктовый лед</a></li>
+        <li><a href="">Мелорин</a></li>
+      </ul>
+    </li>
+    <li><a href="">Доставка и оплата</a></li>
+    <li><a href="">О компании</a></li>
+  </ul>
+  <ul class="user-nav">
+    <li class="search">
+      <form class="search-form">
+        <input type="search" placeholder="Что ищем?">
+        <button type="submit"><img src="https://fakeimg.pl/17x17/" alt="поиск"></button>
+      </form>
+    </li>
+    <li class="log-in">
+      <button><img src="https://fakeimg.pl/21x19/" alt="вход">вход</button>
+      <div class="user-login__wrapper">
+        <form class="user-login">
+          <input type="email" placeholder="Электронная почта" required>
+          <input type="password" placeholder="Пароль" required>
+          <button type="submit">Войти</button>
+        </form>
+        <a href="">Забыли пароль?</a>
+        <a href="">Новая регистрация</a>
+      </div>
+    </li>
+    <li class="cart">
+      <img src="https://fakeimg.pl/21x20/" alt="корзина">
+      <!--не знаю как сверстать счетчик выбранных товаров-->
+    </li>
+  </ul>
+  <p class="info-small">С 10 до 20, ежедневно<br>
+    8 812 450-25-25</p>
+</header>
+<main>
+  <div class="main-gallery__wrapper">
+    <ul class="main-gallery">
+      <li>
+        <h1>Крем-брюле и пломбир
+          с малиновым джемом</h1>
+        <button>Давайте оба</button>
+      </li>
+      <li><h1>Шоколадный пломбир
+        и лимонный сорбет </h1>
+        <button>Давайте оба</button>
+      </li>
+      <li><h1>Пломбир с помадкой
+        и клубничный щербет</h1>
+        <button>Давайте оба</button>
+      </li>
+    </ul>
+    <ul class="main-gallery__control">
+      <li>
+        <button></button>
+      </li>
+      <li>
+        <button></button>
+      </li>
+      <li>
+        <button></button>
+      </li>
+    </ul>
+  </div>
+  <section class="gifts">
+    <div>
+      <h3>Малинка даром!</h3>
+      <p>При покупке 2 кг любого фруктового мороженого, добавим
+        в ваш заказ банку малинового варенья бесплатно.
+      </p>
+      <button>Хочу варенье!</button>
+    </div>
+    <div>
+      <h3>Шоколадки даром!</h3>
+      <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку
+        вкуснейшей шоколадной присыпки совершенно бесплатно.
+      </p>
+      <button>Хочу шоколадки!</button>
+    </div>
+  </section>
+  <ul class="gallery-hit">
+    <li><img src="https://fakeimg.pl/267x267/" alt="с апельсиновым джемом">
+      <p>310р/кг</p>
+      <p>Сливочное с апельсиновым
+        джемом и цитрусовой стружкой</p>
+    </li>
+    <li><img src="https://fakeimg.pl/267x267/" alt="Сливочно-кофейное">
+      <p>380р/кг</p>
+      <p>Сливочно-кофейное с кусочками
+        шоколада</p>
+    </li>
+    <li><img src="https://fakeimg.pl/267x267/" alt="клубничное с присыпкой">
+      <p>355р/кг</p>
+      <p>Сливочно-кофейное с кусочками
+        шоколада</p>
+    </li>
+    <li><img src="https://fakeimg.pl/267x267/" alt="крем-брюле">
+      <p>415р/кг</p>
+      <p>Сливочное крем-брюле с
+        карамельной подливкой</p>
+    </li>
+  </ul>
+  <section class="about">
+    <h4>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
+      производства на развес</h4>
+    <ul>
+      <li>
+        <p>
+          Все наше мороженое изготавливается на собственном
+          производстве, с использованием современного оборудования
+          и проверенных временем технологий.
+        </p>
+      </li>
+      <li>
+        <p>
+          Закупка ингредиентов производится только у проверенных
+          фермерских хозяйств и компаний, с которыми нас связывает
+          долговременное сотрудничество.
+        </p>
+      </li>
+      <li>
+        <p>
+          Для приготовления мороженого используются настоящие
+          сливки и молоко высочайшего качества. Все дополнительные
+          ингредиенты и добавки произведены из натурального,
+          экологически чистого сырья.
+        </p>
+      </li>
+      <li>
+        <p>
+          Доставка нашего мороженого до заказчиков осуществляется
+          в специальном термопаке, который не дает мороженому
+          растаять в пути и позволяет сохранить превосходный вкус.
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section class="blog-news">
+    <div>
+      <h5>Новое в нашем блоге</h5>
+      <a href="">10 способов сервировки
+        фруктовых щербетов к
+        столу</a>
+    </div>
+    <form>
+      <input type="email" value="Электронная почта" required>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+  <section class="location">
+    <img class="location-map" src="https://fakeimg.pl/1200x430/" alt="карта">
+    <div class="contacts">
+      <p>Адрес главного офиса
+        и офлайн магазина:
+      </p>
+      <p>ул. Большая Конюшенная
+        19/8, Санкт-Петербург</p>
+      <p>Для заказов по телефону:</p>
+      <p>8 812 450-25-25</p>
+      <p>(с 10 до 20 ежедневно)</p>
+      <button>Форма обратной связи</button>
+    </div>
+  </section>
+  <section class="popup-wrapper">
+    <h3>Мы обязательно вам ответим!</h3>
+    <form>
+      <input type="text" required>
+      <input type="email" required>
+      <textarea></textarea>
+      <button type="submit">отправить</button>
+    </form>
+    <button class="popup-close0"><img src="https://fakeimg.pl/18x17/" alt="закрыть окно"></button>
+  </section>
+</main>
+<footer>
+  <ul class="social-list">
+    <li><a class="inst" href=""><img src="https://fakeimg.pl/32x32/" alt="inst logo"></a></li>
+    <li><a class="twit" href=""><img src="https://fakeimg.pl/32x32/" alt="twit logo"></a></li>
+    <li><a class="facebook" href=""><img src="https://fakeimg.pl/32x32/" alt="facebook logo"></a></li>
+    <li><a class="vk" href=""><img src="https://fakeimg.pl/32x32/" alt="vk logo"></a></li>
+  </ul>
+  <ul class="documentation">
+    <li><a href="">Для поставщиков</a></li>
+    <li><a href="">Наши документы</a></li>
+    <li><a href="">О производстве</a></li>
+    <li><a href="">Экологические стандарты</a></li>
+  </ul>
+  <section class="production">
+    <a href=""><img src="https://fakeimg.pl/108x39/" alt="html academy logo"></a>
+    <p>Сделано в <a href="">HTML Academy</a>© 2017</p>
+  </section>
+</footer>
+</body>
 </html>
+
