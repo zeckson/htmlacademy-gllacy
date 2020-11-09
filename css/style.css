@@ -70,3 +70,29 @@ h4 {
   line-height: 24px;
   color: rgba(0, 0, 0, 1);
 }
+
+
+.gifts__first{
+  background-image: url("../img/Малиновый фон.jpg");
+  background-repeat: no-repeat;
+}
+
+.gifts__second{
+  background-image: url("../img/Шоколадный фон.jpg");
+  background-repeat: no-repeat;
+}
+
+.about{
+  background-image: url("../img/Вафля фон.jpg");
+  background-repeat: no-repeat;
+}
+
+.location{
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+}
+
+.new-news{
+  background-image: url("../img/Клубничный фон.jpg");
+  background-repeat: no-repeat;
+}
