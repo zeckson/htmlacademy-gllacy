@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css ">
 </head>
 <body>
 <header>
-  <a class="header-logo" href=""><img src="https://fakeimg.pl/154x64/" alt="logo"></a>
+  <a class="header-logo" href=""><img src="img/logo_gllacy.png" width="154" height="64" alt="logo"></a>
   <ul class="header-nav">
     <li><a href="">Каталог</a>
       <ul class="catalog-submenu">
@@ -25,11 +26,11 @@
     <li class="search">
       <form class="search-form">
         <input type="search" placeholder="Что ищем?">
-        <button type="submit"><img src="https://fakeimg.pl/17x17/" alt="поиск"></button>
+        <button type="submit"><img src="img/lens.png" width="17" height="17" alt="поиск"></button>
       </form>
     </li>
     <li class="log-in">
-      <button><img src="https://fakeimg.pl/21x19/" alt="вход">вход</button>
+      <button><img src="img/enter.png" width="21" height="19" alt="вход">вход</button>
       <div class="user-login__wrapper">
         <form class="user-login">
           <input type="email" placeholder="Электронная почта" required>
@@ -41,8 +42,7 @@
       </div>
     </li>
     <li class="cart">
-      <img src="https://fakeimg.pl/21x20/" alt="корзина">
-      <!--не знаю как сверстать счетчик выбранных товаров-->
+      <img src="img/cart.png" width="21" height="20" alt="корзина">
     </li>
   </ul>
   <p class="info-small">С 10 до 20, ежедневно<br>
@@ -78,15 +78,15 @@
     </ul>
   </div>
   <section class="gifts">
-    <div>
-      <h3>Малинка даром!</h3>
+    <div class="gifts__first">
+      <h2>Малинка даром!</h2>
       <p>При покупке 2 кг любого фруктового мороженого, добавим
         в ваш заказ банку малинового варенья бесплатно.
       </p>
       <button>Хочу варенье!</button>
     </div>
-    <div>
-      <h3>Шоколадки даром!</h3>
+    <div class="gifts__second">
+      <h2>Шоколадки даром!</h2>
       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку
         вкуснейшей шоколадной присыпки совершенно бесплатно.
       </p>
@@ -94,30 +94,30 @@
     </div>
   </section>
   <ul class="gallery-hit">
-    <li><img src="https://fakeimg.pl/267x267/" alt="с апельсиновым джемом">
+    <li><img src="img/orange.jpg" width="267" height="267" alt="с апельсиновым джемом">
       <p>310р/кг</p>
       <p>Сливочное с апельсиновым
         джемом и цитрусовой стружкой</p>
     </li>
-    <li><img src="https://fakeimg.pl/267x267/" alt="Сливочно-кофейное">
+    <li><img src="img/chocolate.jpg" width="267" height="267" alt="Сливочно-кофейное">
       <p>380р/кг</p>
       <p>Сливочно-кофейное с кусочками
         шоколада</p>
     </li>
-    <li><img src="https://fakeimg.pl/267x267/" alt="клубничное с присыпкой">
+    <li><img src="img/white_chocolate.jpg" width="267" height="267" alt="клубничное с присыпкой">
       <p>355р/кг</p>
       <p>Сливочно-кофейное с кусочками
         шоколада</p>
     </li>
-    <li><img src="https://fakeimg.pl/267x267/" alt="крем-брюле">
+    <li><img src="img/coffee_cream.jpg" width="267" height="267" alt="крем-брюле">
       <p>415р/кг</p>
       <p>Сливочное крем-брюле с
         карамельной подливкой</p>
     </li>
   </ul>
   <section class="about">
-    <h4>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
-      производства на развес</h4>
+    <h3>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
+      производства на развес</h3>
     <ul>
       <li>
         <p>
@@ -151,11 +151,11 @@
     </ul>
   </section>
   <section class="blog-news">
-    <div>
+    <div class="new-news">
       <h5>Новое в нашем блоге</h5>
-      <a href="">10 способов сервировки
+      <a href=""><h3>10 способов сервировки
         фруктовых щербетов к
-        столу</a>
+        столу</h3></a>
     </div>
     <form>
       <input type="email" value="Электронная почта" required>
@@ -189,10 +189,10 @@
 </main>
 <footer>
   <ul class="social-list">
-    <li><a class="inst" href=""><img src="https://fakeimg.pl/32x32/" alt="inst logo"></a></li>
-    <li><a class="twit" href=""><img src="https://fakeimg.pl/32x32/" alt="twit logo"></a></li>
-    <li><a class="facebook" href=""><img src="https://fakeimg.pl/32x32/" alt="facebook logo"></a></li>
-    <li><a class="vk" href=""><img src="https://fakeimg.pl/32x32/" alt="vk logo"></a></li>
+    <li><a class="inst" href=""><img src="img/inst.png" width="32" height="32" alt="inst logo"></a></li>
+    <li><a class="twit" href=""><img src="img/twit.png" width="32" height="32" alt="twit logo"></a></li>
+    <li><a class="facebook" href=""><img src="img/fb.png" width="32" height="32" alt="facebook logo"></a></li>
+    <li><a class="vk" href=""><img src="img/vk.png" width="32" height="32" alt="vk logo"></a></li>
   </ul>
   <ul class="documentation">
     <li><a href="">Для поставщиков</a></li>
@@ -201,7 +201,7 @@
     <li><a href="">Экологические стандарты</a></li>
   </ul>
   <section class="production">
-    <a href=""><img src="https://fakeimg.pl/108x39/" alt="html academy logo"></a>
+    <a href=""><img src="img/logo_htmlacademy_small.png" width="108" height="39" alt="html academy logo"></a>
     <p>Сделано в <a href="">HTML Academy</a>© 2017</p>
   </section>
 </footer>

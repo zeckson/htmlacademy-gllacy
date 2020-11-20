@@ -1,0 +1,90 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  font-style: normal;
+  src: url("../fonts/roboto.woff2") format("woff2"), url("../fonts/roboto.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "RobotoMedium";
+  font-style: normal;
+  src: url("../fonts/robotomedium.woff2") format("woff2"), url("../fonts/robotomedium.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "RobotoBold";
+  font-style: normal;
+  src: url("../fonts/robotobold.woff2") format("woff2"), url("../fonts/robotobold.woff") format("woff");
+}
+
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+}
+
+
+h1 {
+  margin: 0;
+  font-family: RobotoBold, Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+h2 {
+  margin: 0;
+  font-family: RobotoBold, Arial, sans-serif;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+h3 {
+  margin: 0;
+  font-family: RobotoMedium, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+h4 {
+  margin: 0;
+  font-family: RobotoBold, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.gifts{
+  color: white;
+}
+.gifts h2{
+  color: white;
+}
+
+.gifts__first{
+  background-image: url("../img/raspberry_back.jpg");
+  background-repeat: no-repeat;
+}
+
+.gifts__second{
+  background-image: url("../img/chocloate_back.jpg");
+  background-repeat: no-repeat;
+}
+
+.about{
+  background-image: url("../img/waffle_back.jpg");
+  background-repeat: no-repeat;
+}
+
+.location{
+  background-image: url("../img/map.jpg");
+  background-repeat: no-repeat;
+}
+
+.new-news{
+  background-image: url("../img/strawberry_back.jpg");
+  background-repeat: no-repeat;
+}
