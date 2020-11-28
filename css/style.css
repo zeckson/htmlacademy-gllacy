@@ -134,7 +134,12 @@ main {
   align-items: center;
 }
 
-.slide-first{
+.slide-second,
+.slide-third {
+  display: none;
+}
+
+.slide-first {
   background-image: url("../img/slide-first__back.png");
   background-repeat: no-repeat;
 }
@@ -166,9 +171,16 @@ main {
 }
 
 .gallery-hit {
-  min-height: 403px;
   display: flex;
+  min-height: 403px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.hit-link{
+  width: 267px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about {
