@@ -241,7 +241,7 @@ main {
 
 footer {
   display: flex;
-  min-height: 375px;
+  min-height: 105px;
   width: 1160px;
   margin: 0 auto;
   justify-content: space-between;
