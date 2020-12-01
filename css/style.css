@@ -192,7 +192,6 @@ header {
 .search-form:hover button{
   background-color: #f8f7f4;
   background-image: url("../img/lens-black.png");
-  background-repeat: no-repeat;
 }
 .search:hover input {
   display: none;
