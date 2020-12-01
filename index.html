@@ -51,16 +51,16 @@
 <main>
   <div class="main-gallery__wrapper">
     <ul class="main-gallery">
-      <li>
+      <li class="slide-first">
         <h1>Крем-брюле и пломбир
           с малиновым джемом</h1>
         <button>Давайте оба</button>
       </li>
-      <li><h1>Шоколадный пломбир
+      <li class="slide-second"><h1>Шоколадный пломбир
         и лимонный сорбет </h1>
         <button>Давайте оба</button>
       </li>
-      <li><h1>Пломбир с помадкой
+      <li class="slide-third"><h1>Пломбир с помадкой
         и клубничный щербет</h1>
         <button>Давайте оба</button>
       </li>
@@ -94,22 +94,22 @@
     </div>
   </section>
   <ul class="gallery-hit">
-    <li><img src="img/orange.jpg" width="267" height="267" alt="с апельсиновым джемом">
+    <li class="hit-link"><img src="img/orange.png" width="267" height="267" alt="с апельсиновым джемом">
       <p>310р/кг</p>
       <p>Сливочное с апельсиновым
         джемом и цитрусовой стружкой</p>
     </li>
-    <li><img src="img/chocolate.jpg" width="267" height="267" alt="Сливочно-кофейное">
+    <li class="hit-link"><img src="img/chocolate.png" width="267" height="267" alt="Сливочно-кофейное">
       <p>380р/кг</p>
       <p>Сливочно-кофейное с кусочками
         шоколада</p>
     </li>
-    <li><img src="img/white_chocolate.jpg" width="267" height="267" alt="клубничное с присыпкой">
+    <li class="hit-link"><img src="img/white_chocolate.png" width="267" height="267" alt="клубничное с присыпкой">
       <p>355р/кг</p>
       <p>Сливочно-кофейное с кусочками
         шоколада</p>
     </li>
-    <li><img src="img/coffee_cream.jpg" width="267" height="267" alt="крем-брюле">
+    <li class="hit-link"><img src="img/coffee_cream.png" width="267" height="267" alt="крем-брюле">
       <p>415р/кг</p>
       <p>Сливочное крем-брюле с
         карамельной подливкой</p>
@@ -118,7 +118,7 @@
   <section class="about">
     <h3>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
       производства на развес</h3>
-    <ul>
+    <ul class="about-list">
       <li>
         <p>
           Все наше мороженое изготавливается на собственном
@@ -157,13 +157,15 @@
         фруктовых щербетов к
         столу</h3></a>
     </div>
-    <form>
-      <input type="email" value="Электронная почта" required>
-      <button type="submit">Отправить</button>
-    </form>
+    <div class="news__form-wrapper">
+      <form>
+        <input type="email" value="Электронная почта" required>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
   </section>
   <section class="location">
-    <img class="location-map" src="https://fakeimg.pl/1200x430/" alt="карта">
+    <img class="location-map" src="img/map.png" alt="карта">
     <div class="contacts">
       <p>Адрес главного офиса
         и офлайн магазина:

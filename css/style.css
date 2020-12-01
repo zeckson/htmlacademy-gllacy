@@ -25,6 +25,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: black;
+  background-color: #849d8f
 }
 
 
@@ -57,34 +58,199 @@ h4 {
   line-height: 24px;
 }
 
-.gifts{
-  color: white;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
-.gifts h2{
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+header {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+
+.header-logo {
+  margin-right: 27px;
+  padding-top: 33px;
+}
+
+.header-nav {
+  min-width: 350px;
+  padding-top: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-submenu {
+  display: none;
+}
+
+.user-nav {
+  display: flex;
+  min-width: 262px;
+  margin-left: auto;
+  padding-top: 33px;
+}
+
+.user-login__wrapper {
+  display: none;
+}
+
+.user-nav li:nth-child(2),
+.user-nav li:nth-child(1) {
+  padding-right: 14px;
+}
+
+.info-small {
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
+
+main {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-gallery {
+  margin: 0;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-second,
+.slide-third {
+  display: none;
+}
+
+.slide-first {
+  background-image: url("../img/slide-first__back.png");
+  background-repeat: no-repeat;
+}
+
+.gifts {
+  color: white;
+  display: flex;
+}
+
+.gifts h2 {
   color: white;
 }
 
-.gifts__first{
+.gifts__first {
+  min-height: 230px;
+  min-width: 560px;
+  margin-right: 28px;
+  background-image: url("../img/strawberry_back.png");
+  background-repeat: no-repeat;
+  border-radius: 3px;
+
+}
+
+.gifts__second {
+  min-height: 230px;
+  min-width: 560px;
+  background-image: url("../img/chocloate_back.png");
+  background-repeat: no-repeat;
+}
+
+.gallery-hit {
+  display: flex;
+  min-height: 403px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hit-link{
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  min-height: 308px;
+  background-image: url("../img/waffle_back.png");
+  background-repeat: no-repeat;
+}
+
+.about-list {
+  display: flex;
+}
+
+.blog-news {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.new-news {
+  min-width: 560px;
+  min-height: 222px;
+  margin-right: 26px;
   background-image: url("../img/raspberry_back.jpg");
   background-repeat: no-repeat;
 }
 
-.gifts__second{
-  background-image: url("../img/chocloate_back.jpg");
-  background-repeat: no-repeat;
+.new-news h3 {
+  width: 279px;
 }
 
-.about{
-  background-image: url("../img/waffle_back.jpg");
-  background-repeat: no-repeat;
+.news__form-wrapper {
+  min-width: 560px;
+  min-height: 222px;
 }
 
-.location{
-  background-image: url("../img/map.jpg");
+.location {
+  background-image: url("../img/map.png");
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.new-news{
-  background-image: url("../img/strawberry_back.jpg");
-  background-repeat: no-repeat;
+.contacts {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+}
+
+.popup-wrapper {
+  display: none;
+  min-width: 477px;
+  min-height: 443px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  min-height: 105px;
+  width: 1160px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.social-list {
+  display: flex;
+}
+
+.documentation {
+
 }
