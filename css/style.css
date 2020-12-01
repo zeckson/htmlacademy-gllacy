@@ -184,10 +184,18 @@ header {
   height: 34px;
   border-radius: 50%;
   background-color: #a3b8ad;
+  background-image: url("../img/lens.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.search-form:hover button{
+  background-color: #f8f7f4;
+  background-image: url("../img/lens-black.png");
+  background-repeat: no-repeat;
+}
 .search:hover input {
-  display: block;
+  display: none;
   position: absolute;
   top: 40px;
   left: -190px;
