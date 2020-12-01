@@ -211,6 +211,26 @@ header {
   padding-right: 14px;
 }
 
+.log-in__button{
+  width: 92px;
+  height: 37px;
+  border-radius: 25px;
+  border: none;
+  background-color: #a1b4a9;
+  background-image: url("../img/enter.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  color: #ffffff;
+  padding-left: 20px;
+  background-position-x: 10px;
+}
+
+.log-in__button:hover{
+  background-color: #f8f7f4;
+  color: #000000;
+  background-image: url("../img/enter-bbc.png");
+}
+
 .info-small {
   position: absolute;
   right: 0;
