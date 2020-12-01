@@ -105,15 +105,15 @@ header {
   padding-right: 13px;
 }
 
+.header-nav__link {
+  color: #ffffff;
+  border-bottom: 2px solid #9eb3a8;
+}
+
 .header-nav__element:hover {
   background-color: #ffffff;
   border-bottom: none;
   border-radius: 50px;
-}
-
-.header-nav__link {
-  color: #ffffff;
-  border-bottom: 2px solid #9eb3a8;
 }
 
 .header-nav__element:hover .header-nav__link {
@@ -157,7 +157,6 @@ header {
   border-bottom: 2px solid #d1d0ce;
 }
 
-
 .catalog-submenu {
   display: none;
 }
@@ -169,6 +168,30 @@ header {
   margin-left: auto;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.search {
+  position: relative;
+}
+
+.search-form input {
+  display: none;
+}
+
+.search-form button {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #a3b8ad;
+}
+
+.search:hover input {
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: -190px;
+  border: 20px solid #f8f7f4;
+  border-radius: 15px;
 }
 
 .user-login__wrapper {
