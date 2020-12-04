@@ -116,7 +116,7 @@ header {
   border-radius: 50px;
 }
 
-.header-nav__element:hover .header-nav__link{
+.header-nav__element:hover .header-nav__link {
   border: none;
   color: #000000;
 }
@@ -189,10 +189,11 @@ header {
   background-position: center;
 }
 
-.search-form:hover button{
+.search-form:hover button {
   background-color: #f8f7f4;
   background-image: url("../img/lens-black.png");
 }
+
 .search:hover input {
   display: none;
   position: absolute;
@@ -211,7 +212,7 @@ header {
   padding-right: 14px;
 }
 
-.log-in__button{
+.log-in__button {
   width: 92px;
   height: 37px;
   border-radius: 25px;
@@ -225,10 +226,27 @@ header {
   background-position-x: 10px;
 }
 
-.log-in__button:hover{
+.log-in__button:hover {
   background-color: #f8f7f4;
   color: #000000;
   background-image: url("../img/enter-bbc.png");
+}
+
+.cart {
+  display: flex;
+  width: 96px;
+  height: 37px;
+  text-align: center;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #a1b4a9;
+  border-radius: 25px;
+  background-image: url("../img/cart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 18px ;
 }
 
 .info-small {
