@@ -252,7 +252,24 @@ header {
   background-position-x: 18px ;
 }
 
-.header-gallery {
+.info-small {
+  position: absolute;
+  right: 0;
+  top: 75px;
+  color: #ffffff;
+}
+
+main {
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-gallery__wrapper{
+  margin-top: -790px;
+}
+
+.main-gallery {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -267,31 +284,18 @@ header {
 
 .slide-first {
   display: block;
-  min-height: 537px;
+  min-height: 584px;
   width: 100%  ;
   background-image: url("../img/slide-first__back.png");
   background-repeat: no-repeat;
+  background-position-x: 50%;
 }
 
 .slide-first h1{
   width: 670px;
 }
-.header-gallery__control{
+.main-gallery__control{
   position: absolute;
-}
-
-
-.info-small {
-  position: absolute;
-  right: 0;
-  top: 75px;
-  color: #ffffff;
-}
-
-main {
-  width: 1160px;
-  margin: 0 auto;
-  position: relative;
 }
 
 
