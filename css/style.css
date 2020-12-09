@@ -249,7 +249,7 @@ header {
   background-image: url("../img/cart.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-position-x: 18px ;
+  background-position-x: 18px;
 }
 
 .info-small {
@@ -265,8 +265,9 @@ main {
   position: relative;
 }
 
-.main-gallery__wrapper{
+.main-gallery__wrapper {
   margin-top: -790px;
+  color: #f8f7f4;
 }
 
 .main-gallery {
@@ -276,7 +277,6 @@ main {
   align-items: center;
 }
 
-
 .slide-second,
 .slide-third {
   display: none;
@@ -285,19 +285,21 @@ main {
 .slide-first {
   display: block;
   min-height: 584px;
-  width: 100%  ;
+  width: 100%;
   background-image: url("../img/slide-first__back.png");
   background-repeat: no-repeat;
   background-position-x: 50%;
 }
 
-.slide-first h1{
+.slide-first h1 {
   width: 670px;
-}
-.main-gallery__control{
-  position: absolute;
+  margin-top: 330px;
+  margin-left: 246px;
 }
 
+.main-gallery__control {
+  position: absolute;
+}
 
 .gifts {
   color: white;
