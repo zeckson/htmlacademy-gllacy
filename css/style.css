@@ -347,8 +347,24 @@ main {
   display: flex;
 }
 
+.gifts h2,
+.gifts p {
+  margin-left: 20px;
+}
+
 .gifts h2 {
-  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: bold;
+}
+
+.gifts p {
+  width: 518px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
 }
 
 .gifts__first {
@@ -358,7 +374,6 @@ main {
   background-image: url("../img/strawberry_back.png");
   background-repeat: no-repeat;
   border-radius: 3px;
-
 }
 
 .gifts__second {
@@ -373,10 +388,18 @@ main {
   padding-right: 23px;
   padding-top: 14px;
   padding-bottom: 14px;
+
   font-size: 18px;
   line-height: 24px;
 }
 
+.gifts__btn--first{
+  margin-left: 375px;
+}
+
+.gifts__btn--second{
+  margin-left: 350px;
+}
 .gallery-hit {
   display: flex;
   min-height: 403px;
