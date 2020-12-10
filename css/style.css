@@ -298,7 +298,7 @@ main {
   margin-left: 246px;
 }
 
-.btn-orange{
+.btn-orange {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,7 +308,7 @@ main {
   border-radius: 50px;
 }
 
-.main-gallery__btn{
+.main-gallery__btn {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 12px;
@@ -326,11 +326,11 @@ main {
   left: 0;
 }
 
-.main-gallery__control li{
+.main-gallery__control li {
   padding-right: 8px;
 }
 
-.main-gallery__control button{
+.main-gallery__control button {
   width: 20px;
   height: 20px;
   border: 2px solid #ffffff;
@@ -338,7 +338,7 @@ main {
   background-color: inherit;
 }
 
-.gallery__control--active{
+.gallery__control--active {
   background-color: #ffffff;
 }
 
@@ -366,6 +366,15 @@ main {
   min-width: 560px;
   background-image: url("../img/chocloate_back.png");
   background-repeat: no-repeat;
+}
+
+.gifts__btn {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .gallery-hit {
