@@ -297,6 +297,27 @@ main {
   margin-left: 246px;
 }
 
+.btn-orange{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f7f4;
+  font-weight: bold;
+  background-color: #f06341;
+  border-radius: 50px;
+}
+
+.main-gallery__btn{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  margin-left: 36%;
+  margin-top: 40px;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .main-gallery__control {
   position: absolute;
 }
