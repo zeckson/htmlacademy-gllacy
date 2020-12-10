@@ -266,6 +266,7 @@ main {
 }
 
 .main-gallery__wrapper {
+  position: relative;
   margin-top: -790px;
   color: #f8f7f4;
 }
@@ -320,6 +321,25 @@ main {
 
 .main-gallery__control {
   position: absolute;
+  display: flex;
+  bottom: 30px;
+  left: 0;
+}
+
+.main-gallery__control li{
+  padding-right: 8px;
+}
+
+.main-gallery__control button{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: inherit;
+}
+
+.gallery__control--active{
+  background-color: #ffffff;
 }
 
 .gifts {
