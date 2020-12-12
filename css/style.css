@@ -455,8 +455,8 @@ main {
 }
 
 .about h3 {
-  padding-left: 20px;
   padding-top: 29px;
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -539,10 +539,17 @@ main {
   margin-right: 26px;
   background-image: url("../img/raspberry_back.jpg");
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 
+.new-news h5 ,
+.new-news a{
+  margin-left: 20px;
+  display: block;
+}
 .new-news h3 {
   width: 279px;
+  margin-bottom: 16px;
 }
 
 .news__form-wrapper {
