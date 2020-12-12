@@ -61,6 +61,7 @@ h4 {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 a {
@@ -448,13 +449,82 @@ main {
 }
 
 .about {
-  min-height: 308px;
+  height: 308px;
   background-image: url("../img/waffle_back.png");
   background-repeat: no-repeat;
 }
 
-.about-list {
+.about h3 {
+  padding-left: 20px;
+  padding-top: 29px;
+  margin-bottom: 20px;
+}
+
+.about__list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.about__link {
+  display: inline-block;
+  width: 477px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.about__link:nth-child(1),
+.about__link:nth-child(3) {
+  margin-left: 76px;
+}
+
+.about__link:nth-child(2),
+.about__link:nth-child(4) {
+  margin-left: 88px;
+}
+
+.about__link:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-image: url("../img/icecream.png");
+  top: -14px;
+  left: -58px;
+}
+
+.about__link:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-image: url("../img/cow.png");
+  top: -14px;
+  left: -58px;
+}
+
+.about__link:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-image: url("../img/wood_icon.png");
+  top: -14px;
+  left: -58px;
+}
+
+.about__link:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 49px;
+  height: 49px;
+  background-image: url("../img/termometr.png");
+  background-repeat: no-repeat;
+  top: -14px;
+  left: -58px;
 }
 
 .blog-news {
