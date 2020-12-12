@@ -397,6 +397,7 @@ main {
   padding-right: 23px;
   padding-top: 14px;
   padding-bottom: 14px;
+  margin-top: 26px;
   font-size: 18px;
   line-height: 24px;
 }
@@ -441,11 +442,11 @@ main {
   line-height: 45px;
 }
 
-.hit__text{
+.hit__text {
   margin-top: 17px;
   text-align: center;
-
 }
+
 .about {
   min-height: 308px;
   background-image: url("../img/waffle_back.png");
