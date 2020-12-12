@@ -68,10 +68,29 @@ a {
   cursor: pointer;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+
+.btn-orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f7f4;
+  font-weight: bold;
+  background-color: #f06341;
+  border-radius: 50px;
+}
+
+.btn-orange:hover {
+  background-color: #f07a63;
 }
 
 header {
@@ -298,16 +317,6 @@ main {
   margin-left: 246px;
 }
 
-.btn-orange {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #f8f7f4;
-  font-weight: bold;
-  background-color: #f06341;
-  border-radius: 50px;
-}
-
 .main-gallery__btn {
   padding-left: 40px;
   padding-right: 40px;
@@ -388,31 +397,55 @@ main {
   padding-right: 23px;
   padding-top: 14px;
   padding-bottom: 14px;
-
   font-size: 18px;
   line-height: 24px;
 }
 
-.gifts__btn--first{
+.gifts__btn--first {
   margin-left: 375px;
 }
 
-.gifts__btn--second{
+.gifts__btn--second {
   margin-left: 350px;
 }
-.gallery-hit {
+
+.hit-gallery {
   display: flex;
   min-height: 403px;
   align-items: center;
   justify-content: space-between;
 }
 
-.hit-link {
+.hit__link {
   width: 267px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  color: #f8f7f4;
 }
 
+.hit__link::before {
+  content: "";
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  background-image: url("../img/hit.png");
+  background-repeat: no-repeat;
+}
+
+.hit__price {
+  position: absolute;
+  bottom: 70px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.hit__text{
+  margin-top: 17px;
+  text-align: center;
+
+}
 .about {
   min-height: 308px;
   background-image: url("../img/waffle_back.png");
