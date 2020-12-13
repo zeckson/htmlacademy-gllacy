@@ -570,11 +570,12 @@ main {
   position: relative;
 }
 
-.news__form-wrapper::before{
+.news__form-wrapper::before {
   content: "";
   position: absolute;
   display: block;
   background-image: url("../img/barber-back.png");
+  background-repeat: no-repeat;
   width: 560px;
   height: 220px;
   left: -5px;
@@ -591,13 +592,14 @@ main {
   display: flex;
 }
 
-.news__form input{
+.news__form input {
   width: 368px;
   margin-right: 11px;
   border-radius: 5px;
   color: #bbbbbb;
   border-color: #bbbbbb;
 }
+
 .news__form button {
   padding-left: 20px;
   padding-top: 14px;
@@ -613,11 +615,26 @@ main {
 
 .contacts {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  background-color: white;
+  top: 62px;
+  right: 26px;
+  padding-left: 25px;
+  padding-top: 32px;
+  padding-right: 25px;
+  padding-bottom: 28px;
+  border-radius: 15px;
+  background-color: #fefdfd;
 }
 
+.btn__call-back{
+  padding-left: 28px;
+  padding-top: 13px;
+  padding-right: 28px;
+  padding-bottom: 16px;
+  margin-top: 26px;
+}
+.contacts p{
+  width: 220px;
+}
 .popup-wrapper {
   display: none;
   min-width: 477px;
