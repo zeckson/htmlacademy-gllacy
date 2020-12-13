@@ -542,19 +542,67 @@ main {
   border-radius: 15px;
 }
 
-.new-news h5 ,
-.new-news a{
+.new-news h5,
+.new-news a {
   margin-left: 20px;
   display: block;
+  color: #000000;
 }
+
+.new-news h5 {
+  margin-bottom: 14px;
+}
+
 .new-news h3 {
   width: 279px;
-  margin-bottom: 16px;
 }
 
 .news__form-wrapper {
-  min-width: 560px;
-  min-height: 222px;
+  width: 506px;
+  height: 174px;
+  margin-left: 6px;
+  margin-top: 6px;
+  padding-right: 22px;
+  padding-left: 20px;
+  padding-top: 33px;
+  background-color: #f8f7f4;
+  border-radius: 15px;
+  position: relative;
+}
+
+.news__form-wrapper::before{
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../img/barber-back.png");
+  width: 560px;
+  height: 220px;
+  left: -5px;
+  top: -6px;
+  z-index: -1;
+}
+
+.news__form-wrapper p {
+  margin-bottom: 40px;
+  color: #8e8e8d;
+}
+
+.news__form {
+  display: flex;
+}
+
+.news__form input{
+  width: 368px;
+  margin-right: 11px;
+  border-radius: 5px;
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+.news__form button {
+  padding-left: 20px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  padding-right: 20px;
 }
 
 .location {
