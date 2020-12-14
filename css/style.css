@@ -659,6 +659,7 @@ footer {
   margin-left: 28px;
   margin-top: 36px;
   margin-bottom: 30px;
+  margin-right: 237px;
 }
 
 .social-list a {
@@ -684,4 +685,52 @@ footer {
 
 .vk {
   background-image: url("../img/vk.png");
+}
+
+.documentation-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: start;
+  width: 305px;
+  height: 35px;
+  margin-top: 38px;
+}
+
+.documentation-list li:nth-child(1) {
+  margin-right: 30px;
+}
+
+.documentation-list li:nth-child(3) {
+  margin-right: 42px;
+}
+
+.documentation-list a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #dee5e1;
+}
+
+.documentation__item {
+  position: relative;
+}
+
+.documentation__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  visibility: hidden;
+  width: 15px;
+  height: 13px;
+  left: -20px;
+  top: 5px;
+  background-image: url("../img/heart.png");
+}
+
+.documentation__item:hover + .documentation__item::before {
+  visibility: visible;
+}
+
+.documentation__item:hover a {
+  font-weight: bold;
 }
