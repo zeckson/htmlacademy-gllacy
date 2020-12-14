@@ -65,7 +65,6 @@ ul {
 }
 
 a {
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -103,6 +102,10 @@ header {
   background-image: url("../img/light-back.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+header a {
+  text-decoration: none;
 }
 
 
@@ -418,6 +421,10 @@ main {
   justify-content: space-between;
 }
 
+.hit-gallery a {
+  text-decoration-color: #9db1a5;
+}
+
 .hit__link {
   width: 267px;
   display: flex;
@@ -659,7 +666,6 @@ footer {
   margin-left: 28px;
   margin-top: 36px;
   margin-bottom: 30px;
-  margin-right: 237px;
 }
 
 .social-list a {
@@ -694,7 +700,7 @@ footer {
   justify-content: start;
   width: 305px;
   height: 35px;
-  margin-top: 38px;
+  margin-top: 32px;
 }
 
 .documentation-list li:nth-child(1) {
@@ -729,8 +735,22 @@ footer {
 
 .documentation__item:hover + .documentation__item::before {
   visibility: visible;
-}
+}/*рядом стоящий, а надо тот который выделяется*/
 
 .documentation__item:hover a {
   font-weight: bold;
+}
+
+.production{
+  margin-top: 18px;
+  color: #dde4e0;
+  font-size: 12px;
+}
+
+.production p{
+  margin-top: -8px;
+}
+
+.production a{
+  color: #f8f7f4;
 }
