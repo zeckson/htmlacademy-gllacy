@@ -10,7 +10,7 @@
 <header>
   <a class="header-logo" href=""><img src="img/logo_gllacy.png" width="154" height="64" alt="logo"></a>
   <ul class="header-nav">
-    <li><a href="">Каталог</a>
+    <li class="header-nav__element"><a class="header-nav__link" href="">Каталог</a>
       <ul class="catalog-submenu">
         <li>Новинки</li>
         <li><a href="">Сливочное</a></li>
@@ -19,18 +19,18 @@
         <li><a href="">Мелорин</a></li>
       </ul>
     </li>
-    <li><a href="">Доставка и оплата</a></li>
-    <li><a href="">О компании</a></li>
+    <li class="header-nav__element"><a class="header-nav__link" href="">Доставка и оплата</a></li>
+    <li class="header-nav__element"><a class="header-nav__link" href="">О компании</a></li>
   </ul>
   <ul class="user-nav">
     <li class="search">
       <form class="search-form">
         <input type="search" placeholder="Что ищем?">
-        <button type="submit"><img src="img/lens.png" width="17" height="17" alt="поиск"></button>
+        <button type="submit" class="search-submit"></button>
       </form>
     </li>
     <li class="log-in">
-      <button><img src="img/enter.png" width="21" height="19" alt="вход">вход</button>
+      <button class="log-in__button">Вход</button>
       <div class="user-login__wrapper">
         <form class="user-login">
           <input type="email" placeholder="Электронная почта" required>
@@ -41,9 +41,7 @@
         <a href="">Новая регистрация</a>
       </div>
     </li>
-    <li class="cart">
-      <img src="img/cart.png" width="21" height="20" alt="корзина">
-    </li>
+    <li class="cart">Пусто</li>
   </ul>
   <p class="info-small">С 10 до 20, ежедневно<br>
     8 812 450-25-25</p>
@@ -54,7 +52,7 @@
       <li class="slide-first">
         <h1>Крем-брюле и пломбир
           с малиновым джемом</h1>
-        <button>Давайте оба</button>
+        <button class="btn-orange main-gallery__btn">Давайте оба!</button>
       </li>
       <li class="slide-second"><h1>Шоколадный пломбир
         и лимонный сорбет </h1>
@@ -67,7 +65,7 @@
     </ul>
     <ul class="main-gallery__control">
       <li>
-        <button></button>
+        <button class="gallery__control--active"></button>
       </li>
       <li>
         <button></button>
@@ -83,57 +81,65 @@
       <p>При покупке 2 кг любого фруктового мороженого, добавим
         в ваш заказ банку малинового варенья бесплатно.
       </p>
-      <button>Хочу варенье!</button>
+      <button class="btn-orange gifts__btn gifts__btn--first">Хочу варенье!</button>
     </div>
     <div class="gifts__second">
       <h2>Шоколадки даром!</h2>
       <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку
         вкуснейшей шоколадной присыпки совершенно бесплатно.
       </p>
-      <button>Хочу шоколадки!</button>
+      <button class="btn-orange gifts__btn gifts__btn--second">Хочу шоколадки!</button>
     </div>
   </section>
-  <ul class="gallery-hit">
-    <li class="hit-link"><img src="img/orange.png" width="267" height="267" alt="с апельсиновым джемом">
-      <p>310р/кг</p>
-      <p>Сливочное с апельсиновым
-        джемом и цитрусовой стружкой</p>
+  <ul class="hit-gallery">
+    <li>
+      <a class="hit__link" href=""><img src="img/orange.png" width="267" height="267" alt="с апельсиновым джемом">
+        <p class="hit__price">310р/кг</p>
+        <p class="hit__text">Сливочное с апельсиновым
+          джемом и цитрусовой стружкой</p>
+      </a>
     </li>
-    <li class="hit-link"><img src="img/chocolate.png" width="267" height="267" alt="Сливочно-кофейное">
-      <p>380р/кг</p>
-      <p>Сливочно-кофейное с кусочками
-        шоколада</p>
+    <li>
+      <a class="hit__link" href=""><img src="img/chocolate.png" width="267" height="267" alt="Сливочно-кофейное">
+        <p class="hit__price">380р/кг</p>
+        <p class="hit__text">Сливочно-кофейное с кусочками
+          шоколада</p>
+      </a>
     </li>
-    <li class="hit-link"><img src="img/white_chocolate.png" width="267" height="267" alt="клубничное с присыпкой">
-      <p>355р/кг</p>
-      <p>Сливочно-кофейное с кусочками
-        шоколада</p>
+    <li>
+      <a class="hit__link" href=""><img src="img/white_chocolate.png" width="267" height="267"
+                                        alt="клубничное с присыпкой">
+        <p class="hit__price">355р/кг</p>
+        <p class="hit__text">Сливочно-клубничное с присыпкой из белого шоколада</p>
+      </a>
     </li>
-    <li class="hit-link"><img src="img/coffee_cream.png" width="267" height="267" alt="крем-брюле">
-      <p>415р/кг</p>
-      <p>Сливочное крем-брюле с
-        карамельной подливкой</p>
+    <li>
+      <a class="hit__link" href=""><img src="img/coffee_cream.png" width="267" height="267" alt="крем-брюле">
+        <p class="hit__price">415р/кг</p>
+        <p class="hit__text">Сливочное крем-брюле с
+          карамельной подливкой</p>
+      </a>
     </li>
   </ul>
   <section class="about">
     <h3>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного
       производства на развес</h3>
-    <ul class="about-list">
-      <li>
+    <ul class="about__list">
+      <li class="about__link">
         <p>
           Все наше мороженое изготавливается на собственном
           производстве, с использованием современного оборудования
           и проверенных временем технологий.
         </p>
       </li>
-      <li>
+      <li class="about__link">
         <p>
           Закупка ингредиентов производится только у проверенных
           фермерских хозяйств и компаний, с которыми нас связывает
           долговременное сотрудничество.
         </p>
       </li>
-      <li>
+      <li class="about__link">
         <p>
           Для приготовления мороженого используются настоящие
           сливки и молоко высочайшего качества. Все дополнительные
@@ -141,7 +147,7 @@
           экологически чистого сырья.
         </p>
       </li>
-      <li>
+      <li class="about__link">
         <p>
           Доставка нашего мороженого до заказчиков осуществляется
           в специальном термопаке, который не дает мороженому
@@ -158,9 +164,11 @@
         столу</h3></a>
     </div>
     <div class="news__form-wrapper">
-      <form>
+      <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит.
+        Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
+      <form class="news__form">
         <input type="email" value="Электронная почта" required>
-        <button type="submit">Отправить</button>
+        <button class="btn-orange" type="submit">Отправить</button>
       </form>
     </div>
   </section>
@@ -175,7 +183,7 @@
       <p>Для заказов по телефону:</p>
       <p>8 812 450-25-25</p>
       <p>(с 10 до 20 ежедневно)</p>
-      <button>Форма обратной связи</button>
+      <button class="btn-orange btn__call-back">Форма обратной связи</button>
     </div>
   </section>
   <section class="popup-wrapper">
@@ -191,16 +199,16 @@
 </main>
 <footer>
   <ul class="social-list">
-    <li><a class="inst" href=""><img src="img/inst.png" width="32" height="32" alt="inst logo"></a></li>
-    <li><a class="twit" href=""><img src="img/twit.png" width="32" height="32" alt="twit logo"></a></li>
-    <li><a class="facebook" href=""><img src="img/fb.png" width="32" height="32" alt="facebook logo"></a></li>
-    <li><a class="vk" href=""><img src="img/vk.png" width="32" height="32" alt="vk logo"></a></li>
+    <li><a class="inst" href=""></a></li>
+    <li><a class="twit" href=""></a></li>
+    <li><a class="facebook" href=""></a></li>
+    <li><a class="vk" href=""></a></li>
   </ul>
-  <ul class="documentation">
-    <li><a href="">Для поставщиков</a></li>
-    <li><a href="">Наши документы</a></li>
-    <li><a href="">О производстве</a></li>
-    <li><a href="">Экологические стандарты</a></li>
+  <ul class="documentation-list">
+    <li class="documentation__item documentation__item--active"><a href="">Для поставщиков</a></li>
+    <li class="documentation__item"><a href="">Наши документы</a></li>
+    <li class="documentation__item"><a href="">О производстве</a></li>
+    <li class="documentation__item"><a href="">Экологические стандарты</a></li>
   </ul>
   <section class="production">
     <a href=""><img src="img/logo_htmlacademy_small.png" width="108" height="39" alt="html academy logo"></a>
